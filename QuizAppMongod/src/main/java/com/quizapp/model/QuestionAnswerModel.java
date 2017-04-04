@@ -1,5 +1,6 @@
 package com.quizapp.model;
 
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -34,4 +35,11 @@ public class QuestionAnswerModel {
 	public void setOption(Option option) {
 		this.option = option;
 	}
+//	public Option getOption() {
+//		return option;
+//	}
+//
+//	public void setOption(Option option) {
+//		this.option = option;
+//	}
 }

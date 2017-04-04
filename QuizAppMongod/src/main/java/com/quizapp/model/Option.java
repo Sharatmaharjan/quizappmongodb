@@ -37,5 +37,4 @@ public class Option {
 	public void setWronganswer3(String wronganswer3) {
 		this.wronganswer3 = wronganswer3;
 	}
-
 }

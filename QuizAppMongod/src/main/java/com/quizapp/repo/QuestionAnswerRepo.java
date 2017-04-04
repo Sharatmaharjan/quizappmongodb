@@ -8,4 +8,5 @@ import com.quizapp.model.QuestionAnswerModel;
 @Repository
 public interface QuestionAnswerRepo extends MongoRepository<QuestionAnswerModel, String> {
 	QuestionAnswerModel findById(String id);
+	QuestionAnswerModel findByQuestion(String question);
 }
